@@ -1,0 +1,5 @@
+--IF NOT Exists (select loginname from master.dbo.syslogins where name = 'dmidp')
+--		Begin
+--CREATE LOGIN [dmidp]
+--    WITH PASSWORD = N'password', DEFAULT_LANGUAGE = [русский];
+--	End
